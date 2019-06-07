@@ -1,0 +1,68 @@
+.node circle {
+  fill: #ecf0f1;
+  stroke: #000000;
+  stroke-opacity: 0.8;
+  stroke-width: 2.5px;
+}
+
+.text {
+  fill: #000000;
+  font-size: 20;
+  font-weight: bold;
+}
+
+.link {
+  fill: none;
+  stroke: #000000;
+  stroke-opacity: 0.8;
+  stroke-width: 2px;
+}
+
+form {
+  display: inline;
+  padding: 2px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+}
+
+input[type=text]:foucs {
+  border: 3px solid #555;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  border: 3px solid #000000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input[type=submit] {
+  color: #fff;
+  background-color: #880000;
+  border-color: #000000;
+  display: inline-block;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+}
+
+input[type=submit]:hover {
+  background-color: #34b800;
+}
+
+.content {
+  text-shadow: 0 0 10px rgba(102, 102, 102, 0.6);
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+body {
+  overflow-x: hidden;
+}

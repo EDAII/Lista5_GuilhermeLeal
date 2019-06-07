@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="center text-center">
+    <h1 style="text-align: center">Arvore</h1>
+  </div>
+
+  <div class="center">
+    <form id="insertTree" onSubmit="return handleInsert()">
+      <input id="insertInput" type="text" placeholder="Inserir Valor" maxlength="4" size="14" autofocus>
+      <input type="submit" value="Inserir">
+    </form>
+    <form id="value">
+    </form>
+    <br><br>
+    <form id="deleteTree" onSubmit="return handleDelete()">
+      <input id="deleteInput" type="text" placeholder="Deletar Valor" maxlength="4" size="14">
+      <input type="submit" value="Deletar">
+    </form>
+    <br><br>
+    <form id="findTree" onSubmit="return handleFind()">
+      <input id="findInput" type="text" placeholder="Localizar Valor" maxlength="4" size="14">
+      <input type="submit" value="Localizar">
+    </form>
+  </div>
+
+  <div class="center"><svg></svg></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <script src="arvore-design.js"></script>
+  <script src="arvore-visual.js"></script>
+</body>
